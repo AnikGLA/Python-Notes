@@ -1,0 +1,235 @@
+Problem Statement: Enhanced Simple Calculator with History
+
+You are tasked with creating an enhanced console-based calculator program in Python. This calculator not only performs basic arithmetic operations but also maintains a history of operations performed.
+
+Features:
+
+Addition
+
+Allow the user to add two numbers.
+
+Subtraction
+
+Allow the user to subtract one number from another.
+
+Multiplication
+
+Allow the user to multiply two numbers.
+
+Division
+
+Allow the user to divide one number by another.
+
+Display Operations
+
+Allow the user to view the history of operations performed.
+
+Quit
+
+Allow the user to exit the program.
+
+
+Example:
+
+===== Enhanced Simple Calculator =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Display Operations
+6. Quit
+
+Enter your choice (1/2/3/4/5/6): 1
+Enter the first number: 10
+Enter the second number: 5
+
+Result: 10 + 5 = 15
+
+===== Enhanced Simple Calculator =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Display Operations
+6. Quit
+
+Enter your choice (1/2/3/4/5/6): 5
+
+===== Operations =====
+1. 10 + 5 = 15
+=====================
+
+===== Enhanced Simple Calculator =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Display Operations
+6. Quit
+
+Enter your choice (1/2/3/4/5/6): 2
+Enter the first number: 8
+Enter the second number: 3
+
+Result: 8 - 3 = 5
+
+===== Enhanced Simple Calculator =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Display Operations
+6. Quit
+
+Enter your choice (1/2/3/4/5/6): 5
+
+===== Operations =====
+1. 10 + 5 = 15
+2. 8 - 3 = 5
+=====================
+
+... (continue using the calculator) ...
+
+
+
+
+
+
+
+
+
+Problem Statement: To-Do List Application
+
+You are tasked with creating a simple To-Do List application in Python. The program should allow users to perform various operations on a list of tasks.
+
+Features:
+
+Display To-Do List
+
+When the user selects this option, the program should display the current list of tasks, along with their corresponding numbers.
+
+Add Task
+
+This option allows the user to add a new task to the To-Do list. The user will be prompted to enter the task description.
+
+Remove Task
+
+The user can choose to remove a task by entering its corresponding number.
+
+Quit
+
+This option allows the user to exit the program.
+
+
+Example:
+
+===== To-Do List Application =====
+1. Display To-Do List
+2. Add Task
+3. Remove Task
+4. Quit
+Enter your choice (1/2/3/4): 2
+Enter the task: Buy groceries
+
+'Buy groceries' has been added to the To-Do list.
+
+===== To-Do List Application =====
+1. Display To-Do List
+2. Add Task
+3. Remove Task
+4. Quit
+Enter your choice (1/2/3/4): 1
+
+===== To-Do List =====
+1. Buy groceries
+=====================
+
+===== To-Do List Application =====
+1. Display To-Do List
+2. Add Task
+3. Remove Task
+4. Quit
+Enter your choice (1/2/3/4): 2
+Enter the task: Finish report
+
+'Finish report' has been added to the To-Do list.
+
+===== To-Do List Application =====
+1. Display To-Do List
+2. Add Task
+3. Remove Task
+4. Quit
+Enter your choice (1/2/3/4): 1
+
+===== To-Do List =====
+1. Buy groceries
+2. Finish report
+=====================
+
+===== To-Do List Application =====
+1. Display To-Do List
+2. Add Task
+3. Remove Task
+4. Quit
+Enter your choice (1/2/3/4): 3
+Enter the task number to remove: 2
+
+'Finish report' has been removed from the To-Do list.
+
+===== To-Do List Application =====
+1. Display To-Do List
+2. Add Task
+3. Remove Task
+4. Quit
+Enter your choice (1/2/3/4): 1
+
+===== To-Do List =====
+1. Buy groceries
+=====================
+
+===== To-Do List Application =====
+1. Display To-Do List
+2. Add Task
+3. Remove Task
+4. Quit
+Enter your choice (1/2/3/4): 4
+
+
+
+
+
+
+
+Problem Statement: Student Management System
+
+You are tasked with creating a console-based Student Management System in Python. 
+This program will allow users to perform various operations related to managing student records.
+
+Features:
+
+Add Student
+
+Allow the user to add a new student to the system. The user will be prompted to enter the student's name, age, and grades.
+
+View Students
+
+Allow the user to view a list of all students along with their details.
+
+Search Student
+
+Allow the user to search for a specific student by name. If found, display their details.
+
+Remove Student
+
+Allow the user to remove a student from the system by entering their name.
+
+Quit
+
+Allow the user to exit the program.
+
+
+Student Details:
+
+Name: The name of the student (string).
+Age: The age of the student (integer).
+Grades: A list of grades obtained by the student (list of integers).
